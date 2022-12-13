@@ -16,12 +16,19 @@
 <li><a href="../modules/Optimize.html">Optimize</a></li>
 <li><a href="Optimize.OptimizeApiClient.html">OptimizeApiClient</a></li></ul>
 <h1>Class OptimizeApiClient</h1></div>
+<section class="tsd-panel tsd-comment">
+<div class="tsd-comment tsd-typography">
+<h3>Description</h3><p>The high-level API client for Optimize.</p>
+
+<h3>Example</h3><pre><code><span class="hl-4">const</span><span class="hl-0"> </span><span class="hl-5">optimize</span><span class="hl-0"> = </span><span class="hl-4">new</span><span class="hl-0"> </span><span class="hl-6">OperateApiClient</span><span class="hl-0">()</span><br/><br/><span class="hl-4">async</span><span class="hl-0"> </span><span class="hl-4">function</span><span class="hl-0"> </span><span class="hl-6">main</span><span class="hl-0">() {</span><br/><span class="hl-0">    </span><span class="hl-1">await</span><span class="hl-0"> </span><span class="hl-2">optimize</span><span class="hl-0">.</span><span class="hl-6">enableSharing</span><span class="hl-0">()</span><br/><span class="hl-0">    </span><span class="hl-4">const</span><span class="hl-0"> </span><span class="hl-5">id</span><span class="hl-0"> = </span><span class="hl-3">&quot;8a7103a7-c086-48f8-b5b7-a7f83e864688&quot;</span><br/><span class="hl-0">    </span><span class="hl-4">const</span><span class="hl-0"> </span><span class="hl-5">res</span><span class="hl-0"> = </span><span class="hl-1">await</span><span class="hl-0"> </span><span class="hl-2">optimize</span><span class="hl-0">.</span><span class="hl-6">exportDashboardDefinitions</span><span class="hl-0">([</span><span class="hl-2">id</span><span class="hl-0">])</span><br/><span class="hl-0">    </span><span class="hl-2">fs</span><span class="hl-0">.</span><span class="hl-6">writeFileSync</span><span class="hl-0">(</span><span class="hl-3">&#39;exported-dashboard.json&#39;</span><span class="hl-0">, </span><span class="hl-5">JSON</span><span class="hl-0">.</span><span class="hl-6">stringify</span><span class="hl-0">(</span><span class="hl-2">res</span><span class="hl-0">, </span><span class="hl-4">null</span><span class="hl-0">, </span><span class="hl-7">2</span><span class="hl-0">))</span><br/><span class="hl-0">}</span><br/><br/><span class="hl-6">main</span><span class="hl-0">()</span>
+</code></pre>
+</div></section>
 <section class="tsd-panel tsd-hierarchy">
 <h4>Hierarchy</h4>
 <ul class="tsd-hierarchy">
 <li><span class="target">OptimizeApiClient</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:2</li></ul></aside>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:18</li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -59,6 +66,10 @@
 <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
 <li class="tsd-signature tsd-anchor-link" id="constructor.new_OptimizeApiClient">new <wbr/>Optimize<wbr/>Api<wbr/>Client<span class="tsd-signature-symbol">(</span>userAgent<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Optimize.OptimizeApiClient.html" class="tsd-signature-type" data-tsd-kind="Class">OptimizeApiClient</a><a href="#constructor.new_OptimizeApiClient" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
+<div class="tsd-comment tsd-typography">
+<h3>Example</h3><pre><code><span class="hl-4">const</span><span class="hl-0"> </span><span class="hl-5">optimize</span><span class="hl-0"> = </span><span class="hl-4">new</span><span class="hl-0"> </span><span class="hl-6">OptimizeApiClient</span><span class="hl-0">()</span>
+</code></pre>
+</div>
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
@@ -68,24 +79,24 @@
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="Optimize.OptimizeApiClient.html" class="tsd-signature-type" data-tsd-kind="Class">OptimizeApiClient</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:9</li></ul></aside></li></ul></section></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:29</li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external"><a id="getHeaders" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>get<wbr/>Headers</span><a href="#getHeaders" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">get<wbr/>Headers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:10</li></ul></aside></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:30</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external"><a id="gotOptions" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>got<wbr/>Options</span><a href="#gotOptions" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">got<wbr/>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:4</li></ul></aside></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:20</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-external"><a id="userAgentString" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>user<wbr/>Agent<wbr/>String</span><a href="#userAgentString" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">user<wbr/>Agent<wbr/>String<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:3</li></ul></aside></section></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:19</li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="deleteReport" class="tsd-anchor"></a>
@@ -109,7 +120,7 @@
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:100</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:120</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="disableSharing" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>disable<wbr/>Sharing</span><a href="#disableSharing" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -126,7 +137,7 @@
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Response</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:40</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:60</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="enableSharing" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>enable<wbr/>Sharing</span><a href="#enableSharing" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -143,7 +154,7 @@
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Response</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:25</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:45</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="exportDashboardDefinitions" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>export<wbr/>Dashboard<wbr/>Definitions</span><a href="#exportDashboardDefinitions" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -167,7 +178,7 @@
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:73</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:93</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="exportReportDefinitions" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>export<wbr/>Report<wbr/>Definitions</span><a href="#exportReportDefinitions" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -190,7 +201,7 @@
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:115</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:135</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="exportReportResultData" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>export<wbr/>Report<wbr/>Result<wbr/>Data</span><a href="#exportReportResultData" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -213,7 +224,7 @@
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> paginationTimeoutSec: <span class="tsd-signature-type">number</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/Optimize.types.ReportDataExporter.html" class="tsd-signature-type" data-tsd-kind="Interface">ReportDataExporter</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:128</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:148</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="getDashboardIds" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Dashboard<wbr/>Ids</span><a href="#getDashboardIds" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -236,7 +247,7 @@
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../types/Optimize.types.DashboardCollection.html" class="tsd-signature-type" data-tsd-kind="Type alias">DashboardCollection</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:56</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:76</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="getReadiness" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Readiness</span><a href="#getReadiness" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -251,7 +262,7 @@
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:175</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:195</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="getReportIds" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Report<wbr/>Ids</span><a href="#getReportIds" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -273,7 +284,7 @@
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../types/Optimize.types.ReportCollection.html" class="tsd-signature-type" data-tsd-kind="Type alias">ReportCollection</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:86</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:106</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="importEntities" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>import<wbr/>Entities</span><a href="#importEntities" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -295,7 +306,7 @@
 <h5>entities: <span class="tsd-signature-type">any</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../types/Optimize.types.EntityImportResponse.html" class="tsd-signature-type" data-tsd-kind="Type alias">EntityImportResponse</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:211</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:231</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="ingestExternalVariable" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>ingest<wbr/>External<wbr/>Variable</span><a href="#ingestExternalVariable" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -315,7 +326,7 @@
 <h5>variables: <a href="../interfaces/Optimize.types.Variable.html" class="tsd-signature-type" data-tsd-kind="Interface">Variable</a><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:158</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:178</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external"><a id="labelVariables" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>label<wbr/>Variables</span><a href="#labelVariables" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -335,7 +346,7 @@
 <h5>variableLabels: <a href="../interfaces/Optimize.types.VariableLabels.html" class="tsd-signature-type" data-tsd-kind="Interface">VariableLabels</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:243</li></ul></aside></li></ul></section></section></div>
+<li>Defined in node_modules/optimize-api-client/dist/lib/OptimizeApiClient.d.ts:263</li></ul></aside></li></ul></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
