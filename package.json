@@ -28,6 +28,6 @@
   "dependencies": {
     "operate-api-client": "^1.1.1",
     "optimize-api-client": "^1.0.2",
-    "zeebe-node": "^8.1.2"
+    "zeebe-node": "^8.1.3"
   }
 }
