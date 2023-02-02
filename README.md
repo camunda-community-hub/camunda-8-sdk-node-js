@@ -2,6 +2,8 @@
 
 This SDK provides a high-level Node.js API for Camunda Platform 8. 
 
+The full API documentation is hosted [here](https://camunda-community-hub.github.io/camunda-8-sdk-node-js/). 
+
 ## API Coverage
 
 | Component   | Tested Environment  |
@@ -29,5 +31,3 @@ const zbc = new Zeebe.ZBClient()
 const operate = new Operate.OperateApiClient()
 const optimize = new Optimize.OptimizeApiClient()
 ```
-
-The full API documentation is hosted [here](https://camunda-community-hub.github.io/camunda-8-sdk-node-js/). 

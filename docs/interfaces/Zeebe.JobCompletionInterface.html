@@ -28,7 +28,7 @@
 <ul class="tsd-hierarchy">
 <li><a href="Zeebe.ZeebeJob.html" class="tsd-signature-type" data-tsd-kind="Interface">ZeebeJob</a></li></ul></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:80</li></ul></aside>
+<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:96</li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -51,14 +51,14 @@
 <h4>Type declaration</h4>
 <ul class="tsd-parameters">
 <li class="tsd-parameter-signature">
-<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-interface tsd-is-external">
-<li class="tsd-signature" id="__type.__type-1"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span></li>
+<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property tsd-is-external">
+<li class="tsd-signature" id="cancelWorkflow.__type.__type-1"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Cancel the workflow.</p>
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span></h4></li></ul></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:84</li></ul></aside></section>
+<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:100</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a id="complete" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>complete</span><a href="#complete" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">complete<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>updatedVariables<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">WorkerOutputVariables</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span></div>
@@ -66,8 +66,8 @@
 <h4>Type declaration</h4>
 <ul class="tsd-parameters">
 <li class="tsd-parameter-signature">
-<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-interface tsd-is-external">
-<li class="tsd-signature" id="__type-2.__type-3"><span class="tsd-signature-symbol">(</span>updatedVariables<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">WorkerOutputVariables</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span></li>
+<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property tsd-is-external">
+<li class="tsd-signature" id="complete.__type-2.__type-3"><span class="tsd-signature-symbol">(</span>updatedVariables<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">WorkerOutputVariables</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Complete the job with a success, optionally passing in a state update to merge
 with the process variables on the broker.</p>
@@ -79,7 +79,7 @@ with the process variables on the broker.</p>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> updatedVariables: <span class="tsd-signature-type" data-tsd-kind="Type parameter">WorkerOutputVariables</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span></h4></li></ul></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:89</li></ul></aside></section>
+<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:105</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a id="error" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>error</span><a href="#error" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>errorCode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, errorMessage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span></div>
@@ -87,8 +87,8 @@ with the process variables on the broker.</p>
 <h4>Type declaration</h4>
 <ul class="tsd-parameters">
 <li class="tsd-parameter-signature">
-<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-interface tsd-is-external">
-<li class="tsd-signature" id="__type-4.__type-5"><span class="tsd-signature-symbol">(</span>errorCode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, errorMessage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span></li>
+<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property tsd-is-external">
+<li class="tsd-signature" id="error.__type-4.__type-5"><span class="tsd-signature-symbol">(</span>errorCode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, errorMessage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Report a business error (i.e. non-technical) that occurs while processing a job.
 The error is handled in the process by an error catch event.
@@ -103,7 +103,7 @@ If there is no error catch event with the specified errorCode then an incident w
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> errorMessage: <span class="tsd-signature-type">string</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">&gt;</span></h4></li></ul></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:109</li></ul></aside></section>
+<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:125</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a id="fail" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>fail</span><a href="#fail" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">fail<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span><br/><span>    </span><span class="tsd-signature-symbol">(</span>errorMessage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, retries<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JOB_ACTION_ACKNOWLEDGEMENT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-signature-symbol">(</span>failureConfiguration<span class="tsd-signature-symbol">: </span><a href="Zeebe.JobFailureConfiguration.html" class="tsd-signature-type" data-tsd-kind="Interface">JobFailureConfiguration</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JOB_ACTION_ACKNOWLEDGEMENT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span></div>
@@ -111,8 +111,8 @@ If there is no error catch event with the specified errorCode then an incident w
 <h4>Type declaration</h4>
 <ul class="tsd-parameters">
 <li class="tsd-parameter-signature">
-<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-interface tsd-is-external">
-<li class="tsd-signature" id="__type-6.__type-7"><span class="tsd-signature-symbol">(</span>errorMessage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, retries<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JOB_ACTION_ACKNOWLEDGEMENT</span><span class="tsd-signature-symbol">&gt;</span></li>
+<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property tsd-is-external">
+<li class="tsd-signature" id="fail.__type-6.__type-7"><span class="tsd-signature-symbol">(</span>errorMessage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, retries<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JOB_ACTION_ACKNOWLEDGEMENT</span><span class="tsd-signature-symbol">&gt;</span></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Fail the job with an informative message as to the cause. Optionally, pass in a
 value remaining retries. If no value is passed for retries then the current retry
@@ -128,7 +128,7 @@ specified.</p>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> retries: <span class="tsd-signature-type">number</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JOB_ACTION_ACKNOWLEDGEMENT</span><span class="tsd-signature-symbol">&gt;</span></h4></li>
-<li class="tsd-signature" id="__type-6.__type-8"><span class="tsd-signature-symbol">(</span>failureConfiguration<span class="tsd-signature-symbol">: </span><a href="Zeebe.JobFailureConfiguration.html" class="tsd-signature-type" data-tsd-kind="Interface">JobFailureConfiguration</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JOB_ACTION_ACKNOWLEDGEMENT</span><span class="tsd-signature-symbol">&gt;</span></li>
+<li class="tsd-signature" id="fail.__type-6.__type-8"><span class="tsd-signature-symbol">(</span>failureConfiguration<span class="tsd-signature-symbol">: </span><a href="Zeebe.JobFailureConfiguration.html" class="tsd-signature-type" data-tsd-kind="Interface">JobFailureConfiguration</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JOB_ACTION_ACKNOWLEDGEMENT</span><span class="tsd-signature-symbol">&gt;</span></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Fail the job with an informative message as to the cause. Optionally, pass in a
 value remaining retries. If no value is passed for retries then the current retry
@@ -143,7 +143,7 @@ specified.</p>
 <h5>failureConfiguration: <a href="Zeebe.JobFailureConfiguration.html" class="tsd-signature-type" data-tsd-kind="Interface">JobFailureConfiguration</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">JOB_ACTION_ACKNOWLEDGEMENT</span><span class="tsd-signature-symbol">&gt;</span></h4></li></ul></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:97</li></ul></aside></section>
+<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:113</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a id="forward" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>forward</span><a href="#forward" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">forward<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span><span class="tsd-signature-symbol">)</span></div>
@@ -151,15 +151,15 @@ specified.</p>
 <h4>Type declaration</h4>
 <ul class="tsd-parameters">
 <li class="tsd-parameter-signature">
-<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-interface tsd-is-external">
-<li class="tsd-signature" id="__type-9.__type-10"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span></li>
+<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property tsd-is-external">
+<li class="tsd-signature" id="forward.__type-9.__type-10"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Mark this job as forwarded to another system for completion. No action is taken by the broker.
 This method releases worker capacity to handle another job.</p>
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">&quot;JOB_ACTION_ACKNOWLEDGEMENT&quot;</span></h4></li></ul></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:102</li></ul></aside></section></section></div>
+<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-1.0.d.ts:118</li></ul></aside></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">

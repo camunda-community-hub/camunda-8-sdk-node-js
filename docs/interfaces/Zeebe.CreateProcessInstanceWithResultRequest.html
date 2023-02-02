@@ -21,7 +21,7 @@
 <ul class="tsd-hierarchy">
 <li><span class="target">CreateProcessInstanceWithResultRequest</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-grpc-1.0.d.ts:111</li></ul></aside>
+<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-grpc-1.0.d.ts:133</li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -37,19 +37,25 @@
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a id="fetchVariables" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>fetch<wbr/>Variables</span><a href="#fetchVariables" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></h3>
-<div class="tsd-signature">fetch<wbr/>Variables<span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div><aside class="tsd-sources">
+<div class="tsd-signature">fetch<wbr/>Variables<span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+<div class="tsd-comment tsd-typography"><p>list of names of variables to be included in <code>CreateProcessInstanceWithResultResponse.variables</code>.
+If empty, all visible variables in the root scope will be returned.</p>
+</div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-grpc-1.0.d.ts:114</li></ul></aside></section>
+<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-grpc-1.0.d.ts:142</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a id="request" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>request</span><a href="#request" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature">request<span class="tsd-signature-symbol">:</span> <a href="Zeebe.CreateProcessInstanceRequest.html" class="tsd-signature-type" data-tsd-kind="Interface">CreateProcessInstanceRequest</a><span class="tsd-signature-symbol">&lt;</span><a href="Zeebe.IProcessVariables.html" class="tsd-signature-type" data-tsd-kind="Interface">IProcessVariables</a><span class="tsd-signature-symbol">&gt;</span></div><aside class="tsd-sources">
+<div class="tsd-signature">request<span class="tsd-signature-symbol">:</span> <a href="Zeebe.CreateProcessInstanceBaseRequest.html" class="tsd-signature-type" data-tsd-kind="Interface">CreateProcessInstanceBaseRequest</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-grpc-1.0.d.ts:112</li></ul></aside></section>
+<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-grpc-1.0.d.ts:134</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a id="requestTimeout" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>request<wbr/>Timeout</span><a href="#requestTimeout" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature">request<wbr/>Timeout<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<div class="tsd-signature">request<wbr/>Timeout<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+<div class="tsd-comment tsd-typography"><p>timeout in milliseconds. the request will be closed if the process is not completed before the requestTimeout.
+if requestTimeout = 0, uses the generic requestTimeout configured in the gateway.</p>
+</div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-grpc-1.0.d.ts:113</li></ul></aside></section></section></div>
+<li>Defined in node_modules/zeebe-node/dist/lib/interfaces-grpc-1.0.d.ts:138</li></ul></aside></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
