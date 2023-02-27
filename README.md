@@ -32,6 +32,7 @@ import { C8 } from 'camunda-8-sdk'
 const zbc = new C8.ZBClient()
 const operate = new C8.OperateApiClient()
 const optimize = new C8.OptimizeApiClient()
+const tasklist = new C8.TasklistApiClient()
 ```
 
 Refer to the API docs [here](https://camunda-community-hub.github.io/camunda-8-sdk-node-js/) for full documentation of each component.
