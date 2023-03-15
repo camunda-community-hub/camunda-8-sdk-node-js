@@ -13,7 +13,7 @@ The full API documentation is hosted [here](https://camunda-community-hub.github
 | Zeebe  | SaaS, Self-hosted  |
 | Operate  | SaaS  | 
 | Optimize  | SaaS  | 
-| Tasklist  |  Not Implemented  |
+| Tasklist  |  SaaS  |
 | Console   |  Not Implemented  |
 
 ## Installation
