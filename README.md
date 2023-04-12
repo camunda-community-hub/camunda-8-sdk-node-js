@@ -14,7 +14,7 @@ The full API documentation is hosted [here](https://camunda-community-hub.github
 | Operate  | SaaS  | 
 | Optimize  | SaaS  | 
 | Tasklist  |  SaaS  |
-| Console   |  Not Implemented  |
+| Console   |  SaaS  |
 
 ## Installation
 
@@ -30,6 +30,7 @@ Set your Camunda SaaS credentials in the environment (at the moment, only Camund
 import { C8 } from 'camunda-8-sdk'
 
 const zbc = new C8.ZBClient()
+const console = new C8.ConsoleApiClient()
 const operate = new C8.OperateApiClient()
 const optimize = new C8.OptimizeApiClient()
 const tasklist = new C8.TasklistApiClient()

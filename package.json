@@ -26,6 +26,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
+    "camunda-console-client": "^0.9.1",
     "camunda-tasklist-client": "^0.9.3",
     "operate-api-client": "^1.1.1",
     "optimize-api-client": "^1.0.3",
