@@ -48,7 +48,7 @@
 </tr>
 <tr>
 <td>Console</td>
-<td>Not Implemented</td>
+<td>SaaS</td>
 </tr>
 </tbody></table>
 
@@ -62,7 +62,7 @@
   <h2>Usage</h2>
 </a>
 <p>Set your Camunda SaaS credentials in the environment (at the moment, only Camunda SaaS is fully supported).</p>
-<pre><code class="language-typescript"><span class="hl-3">import</span><span class="hl-0"> { </span><span class="hl-4">C8</span><span class="hl-0"> } </span><span class="hl-3">from</span><span class="hl-0"> </span><span class="hl-1">&#39;camunda-8-sdk&#39;</span><br/><br/><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-6">zbc</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-6">C8</span><span class="hl-0">.</span><span class="hl-7">ZBClient</span><span class="hl-0">()</span><br/><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-6">operate</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-6">C8</span><span class="hl-0">.</span><span class="hl-7">OperateApiClient</span><span class="hl-0">()</span><br/><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-6">optimize</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-6">C8</span><span class="hl-0">.</span><span class="hl-7">OptimizeApiClient</span><span class="hl-0">()</span><br/><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-6">tasklist</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-6">C8</span><span class="hl-0">.</span><span class="hl-7">TasklistApiClient</span><span class="hl-0">()</span>
+<pre><code class="language-typescript"><span class="hl-3">import</span><span class="hl-0"> { </span><span class="hl-4">C8</span><span class="hl-0"> } </span><span class="hl-3">from</span><span class="hl-0"> </span><span class="hl-1">&#39;camunda-8-sdk&#39;</span><br/><br/><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-6">zbc</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-6">C8</span><span class="hl-0">.</span><span class="hl-7">ZBClient</span><span class="hl-0">()</span><br/><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-6">console</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-6">C8</span><span class="hl-0">.</span><span class="hl-7">ConsoleApiClient</span><span class="hl-0">()</span><br/><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-6">operate</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-6">C8</span><span class="hl-0">.</span><span class="hl-7">OperateApiClient</span><span class="hl-0">()</span><br/><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-6">optimize</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-6">C8</span><span class="hl-0">.</span><span class="hl-7">OptimizeApiClient</span><span class="hl-0">()</span><br/><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-6">tasklist</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-6">C8</span><span class="hl-0">.</span><span class="hl-7">TasklistApiClient</span><span class="hl-0">()</span>
 </code></pre>
 <p>Refer to the API docs <a href="https://camunda-community-hub.github.io/camunda-8-sdk-node-js/">here</a> for full documentation of each component.</p>
 </div></div>
@@ -89,6 +89,7 @@
 <ul>
 <li class="current selected"><a href="modules.html">camunda-<wbr/>8-<wbr/>sdk</a>
 <ul></ul></li>
+<li class="tsd-kind-namespace tsd-is-external"><a href="modules/Console.html">Console</a></li>
 <li class="tsd-kind-namespace tsd-is-external"><a href="modules/Operate.html">Operate</a></li>
 <li class="tsd-kind-namespace tsd-is-external"><a href="modules/Optimize.html">Optimize</a>
 <ul>
