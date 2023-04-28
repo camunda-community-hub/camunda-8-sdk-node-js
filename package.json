@@ -12,8 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/camunda-community-hub/camunda-8-sdk-node-js.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "camunda",
+    "zeebe"
+  ],
+  "author": "Josh Wulf <josh.wulf@camunda.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/camunda-community-hub/camunda-8-sdk-node-js/issues"
