@@ -1,4 +1,4 @@
-# Camunda 8 Node.js SDK
+# Camunda 8 Unified SDK for Node.js
 
 [![NPM](https://nodei.co/npm/camunda-8-sdk.png)](https://npmjs.org/package/camunda-8-sdk) 
 
