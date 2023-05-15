@@ -1,6 +1,6 @@
 {
   "name": "camunda-8-sdk",
-  "version": "0.9.9",
+  "version": "0.9.10",
   "description": "The Camunda Platform 8 SDK for Node.js",
   "main": "dist/index.js",
   "scripts": {
