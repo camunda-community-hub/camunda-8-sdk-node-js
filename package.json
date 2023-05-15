@@ -33,6 +33,6 @@
     "camunda-tasklist-client": "^0.9.3",
     "operate-api-client": "^1.1.2",
     "optimize-api-client": "^1.0.3",
-    "zeebe-node": "^8.1.5"
+    "zeebe-node": "^8.2.2"
   }
 }
