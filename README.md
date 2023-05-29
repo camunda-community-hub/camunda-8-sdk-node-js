@@ -6,6 +6,10 @@ This SDK provides a high-level Node.js API for Camunda Platform 8.
 
 The full API documentation is hosted [here](https://camunda-community-hub.github.io/camunda-8-sdk-node-js/). 
 
+Watch a seven-minute speedrun demo video here:
+
+[![](./img/video.png)](https://www.youtube.com/watch?v=A-P6upPCQWA)
+
 ## API Coverage
 
 | Component   | Tested Environment  |
