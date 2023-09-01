@@ -1,6 +1,6 @@
 {
   "name": "camunda-8-sdk",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "The Camunda Platform 8 SDK for Node.js",
   "main": "dist/index.js",
   "scripts": {
@@ -31,7 +31,7 @@
   "dependencies": {
     "camunda-console-client": "^0.9.1",
     "camunda-tasklist-client": "^0.9.4",
-    "operate-api-client": "^1.2.0",
+    "operate-api-client": "^1.2.1",
     "optimize-api-client": "^1.0.3",
     "zeebe-node": "^8.2.5"
   }
