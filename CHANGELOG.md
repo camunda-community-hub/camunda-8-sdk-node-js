@@ -1,10 +1,10 @@
 # CHANGELOG
 
-## Version 0.12.0
+## Version 0.13.0
 
 ### Enhancements
 
--   Update Operate API client to 1.2.1.
+-   Update Operate API client to 1.2.2.
 
 ## Version 0.11.0
 
