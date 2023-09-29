@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## Version 0.15.0
+
+-   Update Operate client to 1.2.3, safely parsing variables when retrieving all variables for a process. 
 ## Version 0.14.0
 
 ### Enhancements
