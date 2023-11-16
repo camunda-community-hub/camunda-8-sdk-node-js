@@ -2,7 +2,19 @@
 
 [![NPM](https://nodei.co/npm/camunda-8-sdk.png)](https://npmjs.org/package/camunda-8-sdk) 
 
-This SDK provides a high-level Node.js API for Camunda Platform 8. 
+This SDK provides a high-level Node.js API for Camunda Platform 8. It is a wrapper around the following individual clients:
+
+- [Web Console](https://github.com/camunda-community-hub/console-client-node-js)
+- [Optimize API Client](https://github.com/camunda-community-hub/optimize-client-node-js)
+- [Operate API Client](https://github.com/camunda-community-hub/operate-client-node-js)
+- [Tasklist API Client](https://github.com/camunda-community-hub/tasklist-client-node-js)
+- [Zeebe API Client](https://github.com/camunda-community-hub/zeebe-client-node-js)
+- [Web Modeler API Client](https://github.com/camunda-community-hub/modeler-client-node-js)
+
+It uses the following libraries to hydrate credentials from the environment:
+
+- [Camunda 8 Credentials from Environment](https://github.com/camunda-community-hub/camunda-8-credentials-from-env)
+- [Camunda SaaS OAuth](https://github.com/camunda-community-hub/camunda-saas-oauth-nodejs)
 
 The full API documentation is hosted [here](https://camunda-community-hub.github.io/camunda-8-sdk-node-js/). 
 
