@@ -1,6 +1,6 @@
 # Camunda 8 Unified SDK for Node.js
 
-# This SDK is deprecated and is not being maintained. With the release of Camunda 8.5 this is the Node.js SDK to use: [https://github.com/camunda-community-hub/camunda-8-js-sdk](https://github.com/camunda-community-hub/camunda-8-js-sdk)
+# This SDK is deprecated and is not being maintained. With the release of Camunda 8.5 [this is the Node.js SDK to use](https://github.com/camunda-community-hub/camunda-8-js-sdk)
 
 
 [![NPM](https://nodei.co/npm/camunda-8-sdk.png)](https://npmjs.org/package/camunda-8-sdk) 
